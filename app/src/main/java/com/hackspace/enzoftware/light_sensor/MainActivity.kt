@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.hackspace.enzoftware.light_sensor.R
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity  : AppCompatActivity() , SensorEventListener {
@@ -24,14 +25,18 @@ class MainActivity  : AppCompatActivity() , SensorEventListener {
 
     var isRunning = false
     override fun onSensorChanged(event: SensorEvent?) {
+        textLight.text = ""+ event!!.values[0] + " lux"
+
         if(event!!.values[0] > 40 && !isRunning ){
             isRunning = true
+
             try {
-                var mp = MediaPlayer()
+                Toast.makeText(this,"La luz es mayor a 40 lux ",Toast.LENGTH_LONG).show()
+                val mp = MediaPlayer()
                 mp.setDataSource("http://server6.mp3quran.net/thubti/001.mp3")
                 mp.prepare()
                 mp.start()
-                Toast.makeText(this,"La luz es mayor a 40 lux ",Toast.LENGTH_LONG).show()
+
             }catch (ex:Exception){}
         }
     }
