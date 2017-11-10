@@ -1,2 +1,5 @@
-# light-sensor
-light-sensor app
+<div align="center">
+  
+  # SIMSIMI APP :smiley:
+  
+</div>
