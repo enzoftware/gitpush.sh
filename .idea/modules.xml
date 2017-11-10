@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/light-sensor.iml" filepath="$PROJECT_DIR$/light-sensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinsimi-clone.iml" filepath="$PROJECT_DIR$/sinsimi-clone.iml" />
     </modules>
   </component>
 </project>
