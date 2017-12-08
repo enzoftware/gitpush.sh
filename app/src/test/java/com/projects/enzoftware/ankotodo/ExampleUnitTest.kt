@@ -1,4 +1,4 @@
-package com.projects.enzoftware.simsimi
+package com.projects.enzoftware.ankotodo
 
 import org.junit.Test
 

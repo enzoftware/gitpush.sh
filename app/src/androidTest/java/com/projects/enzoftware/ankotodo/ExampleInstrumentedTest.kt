@@ -1,4 +1,4 @@
-package com.projects.enzoftware.simsimi
+package com.projects.enzoftware.ankotodo
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.projects.enzoftware.simsimi", appContext.packageName)
+        assertEquals("com.projects.enzoftware.ankotodo", appContext.packageName)
     }
 }
