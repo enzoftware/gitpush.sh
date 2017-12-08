@@ -1,5 +1,3 @@
-<div align="center">
+
   
-  # SIMSIMI APP :smiley:
-  
-</div>
+  # Anko TodoList app
