@@ -1,4 +1,4 @@
-package com.projects.enzoftware.ankotodo
+package com.experiments.enzoftware.moviestickets
 
 import org.junit.Test
 
