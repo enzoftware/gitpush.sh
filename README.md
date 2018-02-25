@@ -4,9 +4,9 @@
 ---
 Another automation tool to push code into **Github** in a one step way!!!
 ---
-Write this alias into your **.zshrc** or your configuration file
+Write this command in your terminal to finish the setup
 ``` shell
-alias GITPUSH= "bash ~/git-push.sh"
+export gitpush=~/git-push.sh
 ```
 ---
 Based on this [ranked stackoverflow question](https://stackoverflow.com/questions/16709404/how-to-automate-the-commit-and-push-process-git). 
